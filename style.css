@@ -6,8 +6,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-color: #fff;
-    color: #000;
+    background-color: #000f;
+    color: #fff;
 }
 .form-switch{
     position: absolute;
@@ -67,7 +67,7 @@ section{
     
     /* section one */
     .my-image img{
-        width: 70vw;
+        width: 60vw;
         height: auto;
         text-align: center;
         align-items:center;

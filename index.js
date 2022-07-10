@@ -15,7 +15,7 @@ $(document).ready(function(){
         console.log('is_checked: ' + is_checked); 
 
         if (is_checked==true){
-           
+                $(".form-check-label").text("Light Mode")
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
@@ -23,6 +23,7 @@ $(document).ready(function(){
              }).appendTo("head");
 
         } else{
+            $(".form-check-label").text("Dark Mode")
             $("<link/>", {
                 rel: "stylesheet",
                 type: "text/css",
