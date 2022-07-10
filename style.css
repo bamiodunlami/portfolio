@@ -16,7 +16,7 @@ margin: 30px 0 0 50px;
 
 section{
     height: 100vh;
-    padding: 20vh 20%;
+    padding: 25vh 20%;
 }
 
  h2{
@@ -34,6 +34,8 @@ section{
     height: auto;
     text-align: center;
     align-items:center;
+    border-radius: 100%;
+    /* border: 3px solid #ffc107; */
 }
 
 /* DarkMode */
