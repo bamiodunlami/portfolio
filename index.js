@@ -1,6 +1,13 @@
 // alert("hellow there");
 $(document).ready(function(){
-    console.log("Hello there");
+    
+    // section slide
+    $('.section-two').hide();
+    $('#profile-btn').on('click', function(){
+        $('.section-one').slideUp();
+        $(".section-two").show();
+    });
+
     val= $('#flexSwitchCheckChecked');
     // $('#flexSwitchCheckChecked').change('click', function(){
     //     console.log(typeof($(val).val()));
@@ -31,4 +38,8 @@ $(document).ready(function(){
              }).appendTo("head");
         }
     });
+
+    //slide effects
+
+
 });

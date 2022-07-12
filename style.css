@@ -5,6 +5,7 @@
     top: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
 body{
     background: linear-gradient(to right, #000, #040025);
     color: #fff;
@@ -24,11 +25,35 @@ section{
     font-weight: 800;
 }
 
+h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffc107;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p{
+    font-weight: 400;
+}
+hr{
+    width: 100px;
+    border: solid 1px;
+}
+
+
  .row{
     align-items: center;
  }
 
 /* section one */
+.section-one{
+    overflow: hidden;
+}
 .my-image img{
     width: 25vw;
     height: auto;
@@ -38,11 +63,25 @@ section{
     /* border: 3px solid #ffc107; */
 }
 
-/* DarkMode */
-/* .dark{
-    background-color: #000;
+/* Section two */
+.section-two{
+    padding: 15vh 20%;
+    height: 100vh;
+    background-color: #292929;
     color: #fff;
-} */
+}
+
+.row-two{
+    align-items: flex-start;
+}
+
+.skill-bar{
+    margin: 10px;
+}
+
+
+
+
 
 @media (max-width:480px) {
 
@@ -53,8 +92,11 @@ section{
     
      h2{
         font-size: 40px;
-        font-weight: 800;
-        
+        font-weight: 800;    
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 500;
     }
 
     .form-switch{
@@ -75,6 +117,24 @@ section{
         align-items:center;
         margin-bottom: 10px;
     }
+
+    /* section two */
+/* Section two */
+.section-two{
+    padding: 10vh 10%;
+    height: 100vh;
+    background-color: #292929;
+    color: #fff;
+}
+
+.row-two{
+    /* align-items: flex-start; */
+    text-align: left;
+}
+
+.skill-bar{
+    margin: 10px;
+}
 
     
     
