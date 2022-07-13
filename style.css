@@ -6,10 +6,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    background: linear-gradient(to right, #000, #040025);
-    color: #fff;
-}
+/* body{
+
+} */
 .form-switch{
     position: absolute;
 margin: 30px 0 0 50px;
@@ -53,6 +52,8 @@ hr{
 /* section one */
 .section-one{
     overflow: hidden;
+    background: linear-gradient(to right, #000, #040025);
+    color: #fff;
 }
 .my-image img{
     width: 25vw;
@@ -66,7 +67,7 @@ hr{
 /* Section two */
 .section-two{
     padding: 15vh 20%;
-    height: 100vh;
+    height: 100%;
     background-color: #292929;
     color: #fff;
 }
@@ -75,7 +76,16 @@ hr{
     align-items: flex-start;
 }
 
+li{
+    font-weight: 600;
+}
+
 .skill-bar{
+    margin: 10px;
+}
+
+.btn-sec-two{
+    width: 10vw;
     margin: 10px;
 }
 
@@ -122,7 +132,7 @@ hr{
 /* Section two */
 .section-two{
     padding: 10vh 10%;
-    height: 100vh;
+    height: 100%;
     background-color: #292929;
     color: #fff;
 }
@@ -136,6 +146,10 @@ hr{
     margin: 10px;
 }
 
-    
-    
+/* Buttons */
+.btn-sec-two{
+    width: 35vw;
+    margin: 5px;
+}
+
 }
