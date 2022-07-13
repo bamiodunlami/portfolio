@@ -6,13 +6,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* body{
-
-} */
+body{
+    background: linear-gradient(to right, #000, #040025);
+    color: #fff;
+}
 .form-switch{
     position: absolute;
 margin: 30px 0 0 50px;
 }
+
+/* label{
+    color: #fff;
+} */
 
 section{
     height: 100vh;
@@ -52,8 +57,6 @@ hr{
 /* section one */
 .section-one{
     overflow: hidden;
-    background: linear-gradient(to right, #000, #040025);
-    color: #fff;
 }
 .my-image img{
     width: 25vw;
