@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    color: #000;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+
+/* Section two */
+.section-two,
+.section-three {
+    background-color: #fafafa;
+    color: #000;
+}
+

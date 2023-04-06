@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    color: #fff;
+}
+.form-switch{
+    position: absolute;
+margin: 30px 0 0 50px;
+}
+
+/* label{
+    color: #fff;
+} */
+
+
+a{
+    color: white;
+}
+section{
+    height: 100vh;
+    padding: 25vh 20%;
+}
+
+ h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffc107;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+p{
+    font-weight: 400;
+}
+hr{
+    width: 100px;
+    border: solid 1px;
+}
+
+
+ .row{
+    align-items: center;
+ }
+
+ .btn-contact{
+    text-decoration: none;
+    color: white;
+ }
+
+/* section one */
+.section-one,
+.section-three{
+    overflow: hidden;
+    background-color:  #000;
+}
+
+.my-image img{
+    width: 25vw;
+    height: auto;
+    text-align: center;
+    align-items:center;
+    border-radius: 100%;
+    /* border: 3px solid #ffc107; */
+}
+
+/* Section two */
+.section-two,
+.section-three{
+    padding: 15vh 20%;
+    height: 100%;
+    background-color: #292929;
+    color: #fff;
+}
+
+.row-two{
+    align-items: flex-start;
+}
+
+li{
+    font-weight: 600;
+}
+
+.skill-bar{
+    margin: 10px;
+}
+
+.btn-sec-two{
+    width: 10vw;
+    margin: 10px;
+}
+
+
+.section-three{
+    height: 100vh;
+}
+
+
+
+
+@media (max-width:480px) {
+
+    section{
+        height: 100vh;
+        padding: 16vh 7%;
+    }
+    
+     h2{
+        font-size: 40px;
+        font-weight: 800;    
+    }
+    h4{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .form-switch{
+        position: absolute;
+    margin: 30px 0 0 50px;
+    margin-left: 35vw;
+    }
+    
+     .row{
+        text-align: center;
+     }
+    
+    /* section one */
+    .my-image img{
+        width: 60vw;
+        height: auto;
+        text-align: center;
+        align-items:center;
+        margin-bottom: 10px;
+    }
+
+    /* section two */
+/* Section two */
+.section-two,
+.section-three{
+    padding: 10vh 8%;
+    height: 100%;
+    background-color: #292929;
+    color: #fff;
+}
+
+.row-two{
+    /* align-items: flex-start; */
+    text-align: left;
+}
+
+.skill-bar{
+    margin: 10px;
+}
+
+/* Buttons */
+.btn-sec-two{
+    width: 35vw;
+    margin: 5px;
+}
+
+.section-three{
+    height: 100vh;
+}
+
+}
